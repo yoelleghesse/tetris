@@ -11,10 +11,10 @@ class Game:
         self.next_block = self.get_random_block()
         self.game_over = False
         self.score = 0
-        self.rotate_sound = pygame.mixer.Sound("C:\\Users\\yoell\\OneDrive\\Desktop\\Tetris\\rotate.ogg")
-        self.clear_sound = pygame.mixer.Sound("C:\\Users\\yoell\\OneDrive\\Desktop\\Tetris\\clear.ogg")
+        self.rotate_sound = pygame.mixer.Sound("C:\\Users\\yoell\\OneDrive\\Desktop\\Tetris\\sounds\\rotate.ogg")
+        self.clear_sound = pygame.mixer.Sound("C:\\Users\\yoell\\OneDrive\\Desktop\\Tetris\\sounds\\clear.ogg")
         
-        pygame.mixer.music.load("C:\\Users\\yoell\\OneDrive\\Desktop\\Tetris\\music.ogg")
+        pygame.mixer.music.load("C:\\Users\\yoell\\OneDrive\\Desktop\\Tetris\\sounds\\music.ogg")
         pygame.mixer.music.play(-1)
 
     def update_score(self, lines_cleared, move_down_points):
