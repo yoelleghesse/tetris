@@ -2,6 +2,8 @@
 
 A simple Tetris game built with Python and Pygame.
 
+Music is included in sounds folder, download the .ogg files and add music folder, then add filepath name to game.py initializations 
+
 ## How to Run
 
 1. **Install dependencies**  
